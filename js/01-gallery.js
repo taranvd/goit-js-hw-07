@@ -46,7 +46,6 @@ function onOpenModalGallery(e) {
 	originalModal.show();
 
 	function onPressEscClose(e) {
-		console.log(e);
 		if (e.code === "Escape") {
 			originalModal.close();
 		}
