@@ -28,8 +28,7 @@ function createGalleryMarkup(items) {
 
 function onOpenModalGallery(e) {
 	e.preventDefault();
-
-	if (!e.target.nodeName === "IMG") {
+	if (e.target.nodeName !== "IMG") {
 		return;
 	}
 
